@@ -12,9 +12,9 @@
 		C2F0C9CD1E93A61A00B145EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F0C9CC1E93A61A00B145EE /* ViewController.m */; };
 		C2F0C9D01E93A61A00B145EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F0C9CE1E93A61A00B145EE /* Main.storyboard */; };
 		C2F0C9D21E93A61A00B145EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F0C9D11E93A61A00B145EE /* Assets.xcassets */; };
-		C2F0C9D51E93A61A00B145EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F0C9D31E93A61A00B145EE /* LaunchScreen.storyboard */; };
 		C2F0C9E01E93A61A00B145EE /* DYZB_001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F0C9DF1E93A61A00B145EE /* DYZB_001Tests.m */; };
 		C2F0C9EB1E93A61A00B145EE /* DYZB_001UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F0C9EA1E93A61A00B145EE /* DYZB_001UITests.m */; };
+		C2F0C9FB1E93D7C500B145EE /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = C2F0C9FA1E93D7C500B145EE /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		C2F0C9CC1E93A61A00B145EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2F0C9CF1E93A61A00B145EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2F0C9D11E93A61A00B145EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2F0C9D41E93A61A00B145EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F0C9D61E93A61A00B145EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2F0C9DB1E93A61A00B145EE /* DYZB_001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZB_001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F0C9DF1E93A61A00B145EE /* DYZB_001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYZB_001Tests.m; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		C2F0C9E61E93A61A00B145EE /* DYZB_001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZB_001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F0C9EA1E93A61A00B145EE /* DYZB_001UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYZB_001UITests.m; sourceTree = "<group>"; };
 		C2F0C9EC1E93A61A00B145EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F0C9FA1E93D7C500B145EE /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +101,13 @@
 		C2F0C9C41E93A61A00B145EE /* DYZB_001 */ = {
 			isa = PBXGroup;
 			children = (
+				C2F0C9FA1E93D7C500B145EE /* Classes */,
 				C2F0C9C81E93A61A00B145EE /* AppDelegate.h */,
 				C2F0C9C91E93A61A00B145EE /* AppDelegate.m */,
 				C2F0C9CB1E93A61A00B145EE /* ViewController.h */,
 				C2F0C9CC1E93A61A00B145EE /* ViewController.m */,
 				C2F0C9CE1E93A61A00B145EE /* Main.storyboard */,
 				C2F0C9D11E93A61A00B145EE /* Assets.xcassets */,
-				C2F0C9D31E93A61A00B145EE /* LaunchScreen.storyboard */,
 				C2F0C9D61E93A61A00B145EE /* Info.plist */,
 				C2F0C9C51E93A61A00B145EE /* Supporting Files */,
 			);
@@ -246,7 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F0C9D51E93A61A00B145EE /* LaunchScreen.storyboard in Resources */,
+				C2F0C9FB1E93D7C500B145EE /* Classes in Resources */,
 				C2F0C9D21E93A61A00B145EE /* Assets.xcassets in Resources */,
 				C2F0C9D01E93A61A00B145EE /* Main.storyboard in Resources */,
 			);
@@ -317,14 +317,6 @@
 				C2F0C9CF1E93A61A00B145EE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C2F0C9D31E93A61A00B145EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2F0C9D41E93A61A00B145EE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DYZB_001/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bqoqiang.DYZB-001";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -437,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DYZB_001/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bqoqiang.DYZB-001";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -509,6 +507,7 @@
 				C2F0C9F11E93A61A00B145EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F0C9F21E93A61A00B145EE /* Build configuration list for PBXNativeTarget "DYZB_001Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +516,7 @@
 				C2F0C9F41E93A61A00B145EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F0C9F51E93A61A00B145EE /* Build configuration list for PBXNativeTarget "DYZB_001UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +525,7 @@
 				C2F0C9F71E93A61A00B145EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
